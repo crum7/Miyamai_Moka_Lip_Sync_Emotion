@@ -17,11 +17,11 @@
 まずは、このプログラムをGitHubからあなたのパソコンにダウンロードします。  
 
 ```sh
-git clone <repository_url>
+git clone https://github.com/crum7/Miyamai_Moka_Lip_Sync_Emotion.git
 ```
   
 ```sh
-cd <repository_folder>
+cd Miyamai_Moka_Lip_Sync_Emotion
 ```
   
 2. 立ち絵ファイルのダウンロードと感情別分類  
@@ -102,9 +102,9 @@ python generate_lip_sync_with_audio.py
 
 6. 動画の確認
 
-動画は、以下の形式で出力されます。
-	- 保存先：Lip_Sync_Movie/<プロジェクトフォルダ名>/
-	- ファイル形式：output_block_<ブロック番号>.mp4
+動画は、以下の形式で出力されます。  
+- 保存先：Lip_Sync_Movie/<プロジェクトフォルダ名>/  
+- ファイル形式：output_block_<ブロック番号>.mp4  
 
 生成された動画を再生して、口パクとまばたきの動作を確認してください。
 
